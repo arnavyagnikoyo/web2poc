@@ -1,4 +1,5 @@
 import { Subititle1, Caption, PrimaryButton, Icon } from "./TypoGraphy";
+import MyCaption from "oyocaption/caption/src/App";
 import "./App.css";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
             </Caption>
             <Caption className="text-amber-dd mb-m">1,200 sq. ft.</Caption>
 
-            <div>
+            <div className="flex">
               <Icon icon="car" />
               <Icon icon="coffee" />
               <Icon icon="wifi" />
@@ -36,6 +37,7 @@ function App() {
           />
         </div>
         <PrimaryButton>Select</PrimaryButton>
+        <MyCaption>Select</MyCaption>
       </div>
     </div>
   );
