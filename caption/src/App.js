@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Hi... welcome to lerna poc version 2</h1>
+      <h1>Hi... welcome to lerna poc version 3</h1>
     </div>
   );
 }
