@@ -101,7 +101,7 @@ function Icon(_ref9) {
   var icon = _ref9.icon,
       className = _ref9.className;
   return /*#__PURE__*/_react.default.createElement("i", {
-    class: "fa fa-".concat(icon, " mr-l ").concat(className)
+    class: "fa fa-".concat(icon, " mr-m ").concat(className)
   });
 }
 

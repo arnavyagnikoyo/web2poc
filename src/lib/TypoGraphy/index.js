@@ -77,7 +77,7 @@ export function Inter({ children, className, bold }) {
   );
 }
 export function Icon({ icon, className }) {
-  return <i class={`fa fa-${icon} mr-l ${className}`}></i>;
+  return <i class={`fa fa-${icon} mr-m ${className}`}></i>;
 }
 
 export function HotelImage({ Multiplesrc }) {
