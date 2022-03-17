@@ -106,14 +106,13 @@ function Icon(_ref9) {
 }
 
 function HotelImage(_ref10) {
-  var Multiplesrc = _ref10.Multiplesrc;
+  var src = _ref10.src,
+      Multiplesrc = _ref10.Multiplesrc;
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "snap-mandatory snap-x flex overflow-x-auto overflow-hidden md:h-full md:w-80 rounded-lg"
-  }, Multiplesrc.map(function (src) {
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: src,
-      className: " snap-center h-auto w-full object-cover  "
-    });
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: src,
+    className: " snap-center h-auto w-full object-cover  "
   }));
 }
 
