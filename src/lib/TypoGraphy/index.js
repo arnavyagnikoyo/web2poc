@@ -80,12 +80,12 @@ export function Icon({ icon, className }) {
   return <i class={`fa fa-${icon} mr-m ${className}`}></i>;
 }
 
-export function HotelImage({ Multiplesrc }) {
+export function HotelImage({ src, Multiplesrc }) {
   return (
     <div className="snap-mandatory snap-x flex overflow-x-auto overflow-hidden md:h-full md:w-80 rounded-lg">
-      {Multiplesrc.map((src) => (
-        <img src={src} className=" snap-center h-auto w-full object-cover  " />
-      ))}
+      {/* {Multiplesrc.map((src) => ( */}
+      <img src={src} className=" snap-center h-auto w-full object-cover  " />
+      {/* ))} */}
     </div>
   );
 }
