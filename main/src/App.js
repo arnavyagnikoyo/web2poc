@@ -57,10 +57,7 @@ function App() {
             ₹3,600 total for 3 nights, 1 deluxe room
           </Caption>
           <div className="mt-s flex items-center">
-            <Subititle1>₹980</Subititle1>
-            <Caption className="ml-s">+ taxes</Caption>
-            <Inter className="ml-s">₹1960</Inter>
-            <Caption className="text-sky-dd ml-s">50% off</Caption>
+            No caption in this version
           </div>
           <PrimaryButton className=" mt-m">Book Now</PrimaryButton>
         </div>
