@@ -1,0 +1,10 @@
+{
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "packages": [
+            "./caption",
+            "./primary-button",
+            "./main"
+    ],
+    "version": "1.0.0"
+}

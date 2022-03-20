@@ -1,9 +1,16 @@
 {
     "private": true,
     "workspaces": {
-        "packages": ["./caption", "./primary-button", "./main"]
+        "packages": [
+            "./caption",
+            "./primary-button",
+            "./main"
+        ]
     },
     "scripts": {
-        "start": "yarn workspace main start"
+        "start": "lerna run --scope=main start --stream"
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
     }
 }
